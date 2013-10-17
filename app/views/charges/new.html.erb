@@ -1,8 +1,12 @@
+<h2>Silk Road Payments, Inc.</h2>
+
 <%= form_tag charges_path do %>
   <article>
-    <label class="amount">
-      <span>Amount: $1,000,000.00</span>
-      <span>This is not a US Treasury sting operation, promise...</span>
+    <label class="amount" style="margin-bottom: 10px;">
+      
+      <div>Service: "Garbage Disposal Services"</div>
+      <div>Amount: $1,000,000.00 per disposal</div>
+
     </label>
   </article>
 
@@ -11,3 +15,7 @@
           data-description="A month's subscription"
           data-amount="100000000"></script>
 <% end %>
+
+<div style="font-size: 8px; margin-top: 20px;">
+This is not a US Government Sting Operaion, promise..
+</div>
