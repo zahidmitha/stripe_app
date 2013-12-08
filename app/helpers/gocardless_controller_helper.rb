@@ -1,0 +1,2 @@
+module GocardlessControllerHelper
+end

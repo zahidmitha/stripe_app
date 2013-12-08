@@ -1,5 +1,8 @@
 StripeApp::Application.routes.draw do
 
+  get "charges/new"
+  root :to => "charges#new"
+
   resources :charges
 
   # The priority is based upon order of creation:
